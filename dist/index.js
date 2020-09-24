@@ -15133,7 +15133,7 @@ const commitFile = () => __awaiter(void 0, void 0, void 0, function* () {
 });
 const serializers = {
     IssueCommentEvent: (item) => {
-        return `🗣 Commented on ${toUrlFormat(item)} in ${toUrlFormat(item.repo.name)}`;
+        return `💬 Commented on ${toUrlFormat(item)} in ${toUrlFormat(item.repo.name)}`;
     },
     IssuesEvent: (item) => {
         return `❗️ ${capitalize(item.payload.action)} issue ${toUrlFormat(item)} in ${toUrlFormat(item.repo.name)}`;

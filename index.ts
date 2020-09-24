@@ -126,7 +126,7 @@ const commitFile = async () => {
 
 const serializers = {
   IssueCommentEvent: (item: any) => {
-    return `🗣 Commented on ${toUrlFormat(item)} in ${toUrlFormat(
+    return `💬 Commented on ${toUrlFormat(item)} in ${toUrlFormat(
       item.repo.name
     )}`
   },
